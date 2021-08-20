@@ -1,1 +1,0 @@
-pyhthon is good 
