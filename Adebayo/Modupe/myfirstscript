@@ -1,0 +1,5 @@
+This is my first script 
+This will monitor db servers
+Alerts will be ssent if a server is down or low on memory or cpu
+df -h
+

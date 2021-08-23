@@ -1,0 +1,8 @@
+#! /bin/bash
+
+string="Good Evening and Welcome back to Work"
+#length=${#string}
+length=`expr length "$string"`
+echo "$string"
+echo " The length of the string is $length "
+
