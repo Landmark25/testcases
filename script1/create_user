@@ -1,0 +1,16 @@
+#! /bin/bash
+
+create_user() {
+	echo -n "Enter the name of the new user: "
+	read username
+	sudo adduser $username
+	ls /home |grep Kolapo
+	echo -n "Enter a password for new user: "
+	read -s password
+	echo
+	echo $password |sudo passwd $username --stdin
+
+}
+create_user
+
+echo "Username and Password added"

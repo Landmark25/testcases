@@ -1,0 +1,7 @@
+The sum of 6000 and 1000 is  7000 
+The product of 6000 and 1000 is 6000000 
+$@: 6000 1000
+$1: 6000
+$2: 1000
+sum.sh: line 15: Date: command not found
+$?: 127
